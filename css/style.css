@@ -1,25 +1,45 @@
-body{
+body {
 	background-color: #ffffff;
-	font-family: Verdana;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1rem;
+	text-align: left;
 }
-#nav-bottom{
+
+#content {
+	padding-inline: 5.2rem;
+	margin-top: 4rem;
+	text-align: justify;
+	color: black;
+}
+
+h1 {
+	padding-top: 2rem;
+	padding-bottom: 0.3rem;
+	color:rgb(130, 40, 40);
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+#nav-bottom {
 	position: fixed;
  	left: 0;
 	bottom: 0;
 	width: 100%;
 }
-#nav-bottom ul{
+
+#nav-bottom ul {
 	display: flex;
 	justify-content: center;
 	align-content: center;
 }
-#nav-bottom ul li a{
+
+#nav-bottom ul li a {
 	padding-top: 0.4rem;
 	padding-bottom: 0.4rem;
 	font-size: 0.6rem;
 }
 
-#nav-top ul{
+#nav-top ul {
 	position: fixed;
 	display: flex;
 	justify-content: center;
@@ -28,8 +48,10 @@ body{
 	left:0;
 	top:0;
 	min-width: 40%;
+	font-size: 1.5rem;
 }
-  ul {
+
+ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -37,11 +59,11 @@ body{
 	background-color:rgb(130, 40, 40);
   }
   
-  li {
+li {
 	float: left;
   }
   
-  li a {
+li a {
 	display: block;
 	color: white;
 	text-align: center;
@@ -49,24 +71,21 @@ body{
 	text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+li a:hover:not(.active) {
 	background-color: rgb(255, 255, 255);
 	color:rgb(130, 40, 40)
   }
   
-  .active {
+.active {
 	background-color: #ffffff;
 	color:rgb(130, 40, 40)
   }
 
-#login{
+#login {
 	text-align: center;
 }
-#login_nav{
+
+#login_nav {
 	position:absolute;
 	right:0rem;
-}
-#content{
-	margin-top: 4rem;
-	text-align: center;
 }

@@ -1,7 +1,7 @@
 <?php
-include("inc/kopf.php");
-include("inc/nav.php");
-include("inc/functions.php");
+require ("inc/kopf.php");
+require ("inc/nav.php");
+require ("inc/functions.php");
 ?>
 
 <div id="content">  <?php getContent(); ?> 
@@ -9,5 +9,5 @@ include("inc/functions.php");
 </div>
 
 <?php
-include("inc/fuss.php");
+require ("inc/fuss.php");
 ?>
