@@ -9,7 +9,7 @@ function getContent(){
         }
     }
 }
-function letsLogin(){
+function tryLogin(){
     if($_SERVER['REQUEST_METHOD'] === 'POST'){
         $username = htmlspecialchars(strip_tags($_POST['user'])); 
         $upass = htmlspecialchars(strip_tags($_POST['pass']));
@@ -19,10 +19,10 @@ function letsLogin(){
         $maske->bindValue(1,$username,PDO::PARAM_STR);
         $maske->execute();
         $db = $maske->fetch();
-        if($db){
-            if($db['passwort'] === $upass){
-                echo "login erfolgreich";
-            }
+            if($db && $db['passwort'] === $upass){
+               echo "login erfolgreich";
+            }else{
+                echo "<br> <br> <div> Username oder Passwort falsch! </div>";
         }
     }
 }

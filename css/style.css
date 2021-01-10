@@ -1,30 +1,72 @@
 body{
-	background-color: #d1d1d1;
+	background-color: #ffffff;
+	font-family: Verdana;
 }
-/* Add a black background color to the top navigation */
-.topnav {
-	background-color: #333;
+#nav-bottom{
+	position: fixed;
+ 	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+#nav-bottom ul{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#nav-bottom ul li a{
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	font-size: 0.6rem;
+}
+
+#nav-top ul{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	left:0;
+	top:0;
+	min-width: 40%;
+}
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 	overflow: hidden;
+	background-color:rgb(130, 40, 40);
   }
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
+  li {
 	float: left;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
   }
   
-  /* Change the color of links on hover */
-  .topnav a:hover {
-	background-color: #ddd;
-	color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-	background-color: #4CAF50;
+  li a {
+	display: block;
 	color: white;
+	text-align: center;
+	padding: 0.8rem;
+	text-decoration: none;
   }
+  
+  li a:hover:not(.active) {
+	background-color: rgb(255, 255, 255);
+	color:rgb(130, 40, 40)
+  }
+  
+  .active {
+	background-color: #ffffff;
+	color:rgb(130, 40, 40)
+  }
+
+#login{
+	text-align: center;
+}
+#login_nav{
+	position:absolute;
+	right:0rem;
+}
+#content{
+	margin-top: 4rem;
+	text-align: center;
+}
