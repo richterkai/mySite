@@ -1,10 +1,13 @@
 <?php
 include("inc/kopf.php");
+include("inc/nav.php");
+include("inc/functions.php");
+?>
 
+<div id="content">  <?php getContent(); ?> 
+    
+</div>
 
-echo "CONTENT  hier rein"; // austauschbar
-echo "baue login";
-
-
+<?php
 include("inc/fuss.php");
 ?>

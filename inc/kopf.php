@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>:: Titel </title>
+		<title>:: krichter.de </title>
 		
 		<link href="css/style.css" type="text/css" rel="stylesheet"> 
 	</head>
