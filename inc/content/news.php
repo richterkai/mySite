@@ -1,5 +1,5 @@
 
-<h1>teste mal was passiert</h1>
+<h1>News</h1>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla orci nisl, porttitor eu feugiat sed, placerat nec eros. Sed ullamcorper convallis enim. Duis quis pellentesque quam, in auctor ipsum. Quisque at odio in orci lacinia varius. Aliquam condimentum, mauris ac condimentum rhoncus, lorem magna iaculis neque, vel dignissim risus augue ac nisi. Vestibulum lobortis tellus mauris. Ut ultricies ante sed suscipit sagittis.
 <br>
 Curabitur condimentum sem nec nunc ornare maximus. Praesent sed sollicitudin ipsum. Nam eget aliquam justo. Quisque tempus eu mi cursus fermentum. Nullam ut nisl vel urna ultrices sodales. Donec fermentum, nulla venenatis pretium pellentesque, ante libero auctor nisl, non congue nisi lectus et nulla. Ut volutpat purus est, non venenatis sem volutpat id.
